@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: tizim
+      POSTGRES_USER: tizim_user
+      POSTGRES_PASSWORD: TqIfF8kiN90wzD
+    ports:
+      - '5432:5432'
